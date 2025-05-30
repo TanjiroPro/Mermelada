@@ -22,19 +22,19 @@ let tags = {
 
 const defaultMenu = {
   before: `╔═━━━━✦❘ 𝕸𝖊𝖗𝖒𝖊𝖑𝖆𝖉𝖆 ❘✦━━━━═╗
-⛧ *_Usuario ::_* %name
-⛧ *_Nivel ::_* %level
-⛧ *_Exp:_* %exp / %maxexp
-⛧ *_Usuarios ::_* %totalreg
-⛧ *_Modo ::_* %mode
-⛧ *_Tiempo Activo ::_* %muptime
+│ 💖 *_Usuario ::_* %name
+│ 💖 *_Nivel ::_* %level
+│ 💖 *_Exp:_* %exp / %maxexp
+│ 💖 *_Usuarios ::_* %totalreg
+│ 💖 *_Modo ::_* %mode
+│ 💖 *_Tiempo Activo ::_* %muptime
 ╚═━━━━✦❘ 𝕸𝖊𝖗𝖒𝖊𝖑𝖆𝖉𝖆 ❘✦━━━━═╝
 
 %readmore
 `.trimStart(),
 
   header: '\n╔═━━━━✦〔 💖 %category 〕✦━━━━═╗',
-  body: '│ ✦ %cmd\n',
+  body: '│ 💖 %cmd\n',
   footer: '╚═━━━━✦❘  𝕸𝖊𝖗𝖒𝖊𝖑𝖆𝖉𝖆  ❘✦━━━━═╝',
   after: '\n',
 }
@@ -111,7 +111,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
       buttons: [
         { buttonId: `${_p}owner`, buttonText: { displayText: 'Creador 💖' }, type: 1 },
         { buttonId: `${_p}grupos`, buttonText: { displayText: 'Grupos 💖' }, type: 1 },
-        { buttonId: `${_p}comprarbot`, buttonText: { displayText: 'Comprar Mafia 💖' }, type: 1 }
+        { buttonId: `${_p}comprarbot`, buttonText: { displayText: 'Comprar Mermelada 💖' }, type: 1 }
       ],
       viewOnce: true
     }, { quoted: m })

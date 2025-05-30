@@ -7,7 +7,7 @@ handler.tags = ['main']
 handler.help = ['comprarbot']
 
 global.ComprarBot = `
-_*Deseas Comprar Mermelada Bot 🤖?*_
+_*Deseas Comprar Mermelada Bot 💖?*_
 
 _*Vendedora Oficial ::*_
 - _*Mermelada*_ :: +52 747 257 5884

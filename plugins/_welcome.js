@@ -11,7 +11,7 @@ const fkontak = {
   message: {
     contactMessage: {
       displayName: 'Mermelada Bot',
-      vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;@jxznr_szz;;;\nFN:Black Clover\nitem1.TEL;waid=51936994155:+51 936 994 155\nEND:VCARD`,
+      vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;@jxznr_szz;;;\nFN:Mermelada\nitem1.TEL;waid=51936994155:+52 747 257 5884\nEND:VCARD`,
     },
   },
 }
